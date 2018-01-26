@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="gray">#ccc</color>
+
+
+
+    <!--优先使用commcolor
+     （1）ColorWhite 代表第一大类有具体的颜色英文单词
+     （2）color353535 代表第二类，后面直接跟着颜色值代码
+     （3）CommColorTransparentClicked 代表第三类，这种会分别对
+     应两种颜色代码。会根据具体的业务模型来创建颜色的名字
+     （4）LevelColor1,LevelColor2,LevelColor3-->
+    <!-- framework colors -->
+    <!-- 象牙色  #FFF0F5  #FFFFF0  #FFFAFA-->
+
+    <color name="webviewProgressbar">#FF4081</color>
+    <color name="color_item_normal">#88bf52</color>
+
+    <color name="ColorLoginBg">#FAFAFA</color>
+    <color name="ColorLine">#DDDDDD</color>
+    <color name="ColorGray">#aaaaaa</color>
+
+    <!-- INA系列新增颜色-->
+    <!-- 透明 -->
+    <color name="ColorTransparent">#00000000</color>
+
+    <!-- 白色 -->
+    <color name="ColorWhite">#ffffff</color>
+    <!-- 象牙色 -->
+    <color name="ColorIvory">#FFFFF0</color>
+    <!-- 亮黄色 -->
+    <color name="ColorLightyellow">#FFFFE0</color>
+    <!-- 黄色 -->
+    <color name="ColorBlack">#000000</color>
+    <!-- 雪白色 -->
+    <color name="ColorSnow">#FFFAFA</color>
+    <!-- 花白色 -->
+    <color name="ColorFloralwhite">#FFFAF0</color>
+    <!-- 柠檬绸色 -->
+    <color name="ColorLemonchiffon">#FFFACD</color>
+    <!-- 米绸色 -->
+    <color name="ColorCornsilk">#FFF8DC</color>
+    <!-- 海贝色 -->
+    <color name="ColorSeashell">#FFF5EE</color>
+    <!-- 淡紫红 -->
+    <color name="ColorLavenderblush">#FFF0F5</color>
+    <!-- 番木色 -->
+    <color name="ColorPapayawhip">#FFEFD5</color>
+    <!-- 白杏色 -->
+    <color name="ColorBlanchedalmond">#FFEBCD</color>
+    <!-- 浅玫瑰色 -->
+    <color name="ColorMistyrose">#FFE4E1</color>
+    <!-- 桔黄色 -->
+    <color name="ColorBisque">#FFE4C4</color>
+    <!-- 鹿皮色 -->
+    <color name="ColorMoccasin">#FFE4B5</color>
+    <!-- 纳瓦白 -->
+    <color name="ColorNavajowhite">#FFDEAD</color>
+    <!-- 桃色 -->
+    <color name="ColorPeachpuff">#FFDAB9</color>
+    <!-- 金色 -->
+    <color name="ColorGold">#FFD700</color>
+    <!-- 粉红色 -->
+    <color name="ColorPink">#FFC0CB</color>
+    <!-- 亮粉红色 -->
+    <color name="ColorLightpink">#FFB6C1</color>
+    <!-- 橙色 -->
+    <color name="ColorOrange">#FFA500</color>
+    <!-- 亮肉色 -->
+    <color name="ColorLightsalmon">#FFA07A</color>
+    <!-- 暗桔黄色 -->
+    <color name="ColorDarkorange">#FF8C00</color>
+    <!-- 珊瑚色 -->
+    <color name="ColorCoral">#FF7F50</color>
+    <!-- 热粉红色 -->
+    <color name="ColorHotpink">#FF69B4</color>
+    <!-- 西红柿色 -->
+    <color name="ColorTomato">#FF6347</color>
+    <!-- 红橙色 -->
+    <color name="ColorOrangered">#FF4500</color>
+    <!-- 深粉红色 -->
+    <color name="ColorDeeppink">#FF1493</color>
+    <!-- 紫红色 -->
+    <color name="ColorFuchsia">#FF00FF</color>
+    <!-- 红紫色 -->
+    <color name="ColorAgenta">#FF00FF</color>
+    <!-- 红色 -->
+    <color name="ColorRed">#FF0000</color>
+    <!-- 老花色 -->
+    <color name="ColorOldlace">#FDF5E6</color>
+    <!-- 亮金黄色 -->
+    <color name="ColorLightgoldenrodyellow">#FAFAD2</color>
+    <!-- 亚麻色 -->
+    <color name="ColorLinen">#FAF0E6</color>
+    <!-- 古董白 -->
+    <color name="ColorAntiquewhite">#FAEBD7</color>
+    <!-- 鲜肉色 -->
+    <color name="ColorSalmon">#FA8072</color>
+    <!-- 幽灵白 -->
+    <color name="ColorGhostwhite">#F8F8FF</color>
+    <!-- 薄荷色 -->
+    <color name="ColorMintcream">#F5FFFA</color>
+    <!-- 烟白色 -->
+    <color name="ColorWhitesmoke">#F5F5F5</color>
+    <!-- 米色 -->
+    <color name="ColorBeige">#F5F5DC</color>
+    <!-- 浅黄色 -->
+    <color name="ColorWheat">#F5DEB3</color>
+    <!-- 沙褐色 -->
+    <color name="ColorSandybrown">#F4A460</color>
+    <!-- 天蓝色 -->
+    <color name="ColorAzure">#F0FFFF</color>
+    <!-- 蜜色 -->
+    <color name="ColorHoneydew">#F0FFF0</color>
+    <!-- 艾利斯兰 -->
+    <color name="ColorAliceblue">#F0F8FF</color>
+    <!-- 黄褐色 -->
+    <color name="ColorKhaki">#F0E68C</color>
+    <!-- 亮珊瑚色 -->
+    <color name="ColorLightcoral">#F08080</color>
+    <!-- 苍麒麟色 -->
+    <color name="ColorPalegoldenrod">#EEE8AA</color>
+    <!-- 紫罗兰色 -->
+    <color name="ColorViolet">#EE82EE</color>
+    <!-- 暗肉色 -->
+    <color name="ColorDarksalmon">#E9967A</color>
+    <!-- 淡紫色 -->
+    <color name="ColorLavender">#E6E6FA</color>
+    <!-- 亮青色 -->
+    <color name="ColorLightcyan">#E0FFFF</color>
+    <!-- 实木色 -->
+    <color name="ColorBurlywood">#DEB887</color>
+    <!-- 洋李色 -->
+    <color name="ColorPlum">#DDA0DD</color>
+    <!-- 淡灰色 -->
+    <color name="ColorGainsboro">#DCDCDC</color>
+    <!-- 暗深红色 -->
+    <color name="ColorCrimson">#DC143C</color>
+    <!-- 苍紫罗兰色 -->
+    <color name="ColorPalevioletred">#DB7093</color>
+    <!-- 金麒麟色 -->
+    <color name="ColorGoldenrod">#DAA520</color>
+    <!-- 淡紫色 -->
+    <color name="ColorOrchid">#DA70D6</color>
+    <!-- 蓟色 -->
+    <color name="ColorThistle">#D8BFD8</color>
+    <!-- 亮灰色 -->
+    <color name="ColorLightgray">#555555</color>
+    <!-- 亮灰色 -->
+    <color name="ColorLightgrey">#D3D3D3</color>
+    <!-- 茶色 -->
+    <color name="ColorTan">#D2B48C</color>
+    <!-- 巧可力色 -->
+    <color name="ColorChocolate">#D2691E</color>
+    <!-- 秘鲁色 -->
+    <color name="ColorPeru">#CD853F</color>
+    <!-- 印第安红 -->
+    <color name="ColorIndianred">#CD5C5C</color>
+    <!-- 中紫罗兰色 -->
+    <color name="ColorMediumvioletred">#C71585</color>
+    <!-- 银色 -->
+    <color name="ColorSilver">#C0C0C0</color>
+    <!-- 暗黄褐色 -->
+    <color name="ColorDarkkhaki">#BDB76B</color>
+    <!-- 褐玫瑰红 -->
+    <color name="ColorRosybrown">#BC8F8F</color>
+    <!-- 中粉紫色 -->
+    <color name="ColorMediumorchid">#BA55D3</color>
+    <!-- 暗金黄色 -->
+    <color name="ColorDarkgoldenrod">#B8860B</color>
+    <!-- 火砖色 -->
+    <color name="ColorFirebrick">#B22222</color>
+    <!-- 粉蓝色 -->
+    <color name="ColorPowderblue">#B0E0E6</color>
+    <!-- 亮钢兰色 -->
+    <color name="ColorLightsteelblue">#B0C4DE</color>
+    <!-- 苍宝石绿 -->
+    <color name="ColorPaleturquoise">#AFEEEE</color>
+    <!-- 黄绿色 -->
+    <color name="ColorGreenyellow">#ADFF2F</color>
+    <!-- 亮蓝色 -->
+    <color name="ColorLightblue">#ADD8E6</color>
+    <!-- 暗灰色 -->
+    <color name="ColorDarkgray">#A9A9A9</color>
+    <!-- 褐色 -->
+    <color name="ColorBrown">#A52A2A</color>
+    <!-- 赭色 -->
+    <color name="ColorSienna">#A0522D</color>
+    <!-- 暗紫色 -->
+    <color name="ColorDarkorchid">#9932CC</color>
+    <!-- 苍绿色 -->
+    <color name="ColorPalegreen">#98FB98</color>
+    <!-- 暗紫罗兰色 -->
+    <color name="ColorDarkviolet">#9400D3</color>
+    <!-- 中紫色 -->
+    <color name="ColorMediumpurple">#9370DB</color>
+    <!-- 亮绿色 -->
+    <color name="ColorLightgreen">#90EE90</color>
+    <!-- 暗海兰色 -->
+    <color name="ColorDarkseagreen">#8FBC8F</color>
+    <!-- 重褐色 -->
+    <color name="ColorDarkred">#8B0000</color>
+    <!-- 暗洋红 -->
+    <color name="ColorSaddlebrown">#8B4513</color>
+    <!-- 暗红色 -->
+    <color name="ColorDarkmagenta">#8B008B</color>
+    <!-- 紫罗兰蓝色 -->
+    <color name="ColorBlueviolet">#8A2BE2</color>
+    <!-- 亮天蓝色 -->
+    <color name="ColorLightskyblue">#87CEFA</color>
+    <!-- 天蓝色 -->
+    <color name="ColorSkyblue">#87CEEB</color>
+
+    <color name="color3A3A3A">#3A3A3A</color>
+    <color name="color3F3F3F">#3F3F3F</color>
+    <color name="color8A9599">#8A9599</color>
+    <color name="color868686">#868686</color>
+
+
+    <!--透明颜色-->
+    <color name="CommColorTransparent">#00000000</color>
+    <!--CommColorBorderClicked透明颜色选择颜色-->
+    <color name="CommColorTransparentClicked">#25000000</color>
+    <!--CommMainBg透明颜色选择颜色oppose主色-->
+    <color name="CommColorOppose">#8B008B</color>
+    <!--CommColorTransparentClicked透明颜色选择颜色oppose主色点击-->
+    <color name="CommColorOpposeClicked">#25000000</color>
+    <color name="CommColorOpposeRipple">#CD5C5C</color>
+    <!--oppose ripple -->
+    <color name="CommColorRipple">#CD5C5C</color><!--oppose ripple-->
+    <color name="CommColorDialog">#8B008B</color><!--CommColorDayBackground-->
+    <color name="CommColorProgressDialog">#8B008B</color><!--CommColorDayBackground-->
+
+    <!--背景颜色，适用于各个子View-->
+    <color name="CommColorBg">#091928</color>
+    <color name="CommColorBGLl">#FFFAFA</color><!--ll的背景颜色-->
+    <color name="CommColorBGRl">#FFFAFA</color><!--rl的背景颜色-->
+    <color name="CommColorBGTt">#FFFAFA</color><!--tx的背景颜色-->
+    <color name="CommColorBGBtn">#FFFAFA</color><!--按钮的背景颜色-->
+    <color name="CommColorBGFrame">#DC143C</color><!--frame的背景颜色-->
+
+    <color name="CommColorGray">#8a8a8a</color><!--灰色-->
+    <color name="CommColorWhite">#ffffff</color><!--白色-->
+
+    <!--以下颜色代码如无特殊说明，都指正常状态的演示（白天为主色代码）,晚间为CommMainBgNight类-->
+    <color name="CommMainBg">#8B008B</color><!--背景颜色可以等于主色，适用于头布局，白天模式-->
+    <color name="CommMainBgClicked">#8B008B</color><!--点击后的颜色-->
+    <color name="CommMainBgTips">#c2c2c2</color><!--第二主色-->
+
+    <color name="CommTxtMainColor">#c2c2c2</color><!--txt主色，txt-->
+    <color name="CommTxtMainColorClicked">#8f8da3</color><!--主色选择颜色-->
+
+    <color name="CommTxtMainTintColor">#8f8da3</color><!--文本特殊Tint談談的意思-->
+    <color name="CommTxtMainTipsColor">#ADFF2F</color><!--文本特殊标记颜色-->
+
+    <color name="CommStartColor">@color/color_item_normal</color><!--开始颜色，用于渐变-->
+    <color name="CommEndColor">#d5d5d5</color><!--结束颜色，用于渐变-->
+
+    <color name="CommColorBarTitle">#9a9a9a</color><!--bar,文本文字颜色-->
+    <color name="CommColorBarTitleClicked">#38b7ea</color><!--bar文本文字选择颜色#cacaca-->
+
+    <color name="CommColorTxtContent">#333333</color><!--文本内容颜色-->
+    <color name="CommColorTxtContentClicked">#999999</color><!--文本内容选择颜色-->
+
+    <color name="CommColorTxtTitle">#757575</color><!--文本标题颜色=可等于主色CommTxtMainColor=#c2c2c2-->
+    <color name="CommColorTxtTitleClicked">#38b7ea</color><!--文本标题选择颜色-->
+
+    <color name="CommColorLine">#aaa</color><!--分割线的颜色-->
+    <color name="CommColorLineTips">#d5d5d5</color><!--分割线的颜色-->
+    <color name="CommColorLineClicked">#DDDDDD</color><!--分割线选择颜色-->
+    <color name="CommColorBorder">#A9A9A9</color><!--md,CommColorTransparentClicked--><!--边框颜色-->
+    <color name="CommColorBorderClicked">#25000000</color><!--md,CommColorTransparent边框颜色选择-->
+
+    <color name="CommTxtPauseColor">#777</color><!--暂时使用的字体颜色-->
+    <color name="CommBgPauseColor">#DC143C</color><!--暂时使用的背景颜色-->
+
+    <color name="CommTxtTipsColor">#A9A9A9</color><!--提示文字，如网络错误，为空的提示-->
+    <color name="CommTxtTipsColorClicked">#25000000</color><!--提示文字，tips第二中颜色，如网络错误，为空-->
+
+    <color name="CommTxtHeadviewColor">#fff</color><!--base_headview文字颜色-->
+    <color name="CommTxtHeadviewColorClicked">#8a8a8a</color><!--base_headview文字点击颜色-->
+
+    <color name="CommBarBgColor">#8a8a8a</color><!--通用Bar背景颜色颜色-->
+    <color name="CommBarBgColorClicked">#8a8a8a</color><!--通用Bar背景颜色点击颜色-->
+
+    <color name="CommBgPickerViewColor">#fff</color><!--pickerview上面的背景颜色-->
+    <color name="CommBgPickerViewColorTips">#f5f5f5</color><!--pickerview下面的背景颜色-->
+    <color name="CommBgPickerViewColorClicked">#fff</color><!--pickerview下面的背景颜色-->
+
+    <color name="CommTxtPickerView_BarColor_Nor">#057dff</color>
+    <color name="CommTxtPickerView_BarColor_Clicked">#c2daf5</color>
+    <color name="CommTxtPickerView_BarTitleColor">#000000</color>
+    <color name="CommTxtPickerView_CenterColor">#2a2a2a</color>
+    <color name="CommTxtPickerView_CenterColor_clicked">#2a2a2a</color>
+    <color name="CommTxtPickerView_OutColor">#a8a8a8</color>
+    <color name="CommColorLinePickerView">#d5d5d5</color><!--分割线的颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+
+
+    <color name="CommTxtColorLevel1">#8a8a8a</color>
+    <color name="CommTxtColorLevel1Clicked">#778a8a8a</color>
+    <color name="CommTxtColorLevel2">#38b7ea</color>
+    <color name="CommTxtColorLevel2Clicked">#7738b7ea</color>
+    <color name="CommTxtColorLevel3">#A9A9A9</color>
+    <color name="CommTxtColorLevel3Clicked">#77A9A9A9</color>
+    <color name="CommColorHintColor">#404040</color>
+
+    <color name="LevelColor1">#ffffff</color>
+    <color name="LevelColor2">#057dff</color>
+    <color name="LevelColor3">#404040</color>
+
+    <color name="LaHomeMColor1">#ffffff</color>
+    <color name="LaHomeMColor2">#057dff</color>
+    <color name="LaHomeMColor3">#404040</color>
+
+    <color name="LaFourMColor1">#ffffff</color>
+    <color name="LaFourMColor2">#057dff</color>
+    <color name="LaFourMColor3">#404040</color>
+
+    <!--对应夜间模式颜色代码-->
+    <color name="CommMainBgNight">#CD5C5C</color>
+    <color name="CommMainBgNightClicked">#000011</color>
+    <color name="CommMainBgNightTips">#c2c2c2</color>
+
+    <!--sunshuntao 2016-11-16 personal-standard;no changes-->
+    <!--夜间，护眼模式的背景颜色-->
+    <color name="CommColorNightBackground">#DAA520</color>
+    <color name="CommColorNightBackgroundClicked">#DAA520</color>
+
+    <color name="CommColorNightTxtTitle">#ffffff</color>
+    <color name="CommColorNightTxtTitleClicked">#38b7ea</color>
+    <color name="CommColorNightTxtTitleTips">#909090</color>
+
+    <color name="CommColorNightBarBackground">@color/ColorGray</color>
+    <color name="CommColorNightBarBackgroundClicked">#38b7ea</color>
+
+    <!--白天，白色背景颜色-->
+    <color name="CommColorDayBackground">#ffffff</color>
+    <color name="CommColorDayBackgroundClicked">#ffffff</color>
+
+    <color name="CommColorDayTxtTitle">#757575</color>
+    <color name="CommColorDayTxtTitleClicked">#38b7ea</color>
+    <color name="CommColorDayTxtTitleTips">#909090</color>
+
+    <color name="CommColorDayBarBackground">@color/color_item_normal</color>
+    <color name="CommColorDayBarBackgroundClicked">#38b7ea</color>
+
+
+
+    <color name="CommColorBgSelector">#00000000</color>
+    <color name="CommColorBgSelectorClicked">#25000000</color>
+    <color name="CommColorEditCursorColor">#ff7200</color>
+
+    <!--swipe系列待修改-->
+    <color name="recycler_swipe_color_text_gray">#FF777777</color>
+
+    <color name="recycler_swipe_color_loading_color1">#55777777</color>
+    <color name="recycler_swipe_color_loading_color2">#B1777777</color>
+    <color name="recycler_swipe_color_loading_color3">#FF777777</color>
+</resources>
